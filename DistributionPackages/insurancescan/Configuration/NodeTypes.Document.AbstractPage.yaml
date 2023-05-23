@@ -1,0 +1,13 @@
+'insurancescan:Document.AbstractPage':
+  abstract: true
+  superTypes:
+    'Neos.Neos:Document': true
+  childNodes:
+    main:
+      type: 'Neos.Neos:ContentCollection'
+      constraints:
+        nodeTypes:
+          'insurancescan:Constraint.Content.Restricted': false
+  constraints:
+    nodeTypes:
+      'insurancescan:Constraint.Document.Restricted': false

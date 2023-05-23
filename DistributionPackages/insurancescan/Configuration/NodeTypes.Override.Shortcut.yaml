@@ -1,0 +1,5 @@
+
+'Neos.Neos:Shortcut':
+  constraints:
+    nodeTypes:
+      'insurancescan:Constraint.Document.Restricted': false
